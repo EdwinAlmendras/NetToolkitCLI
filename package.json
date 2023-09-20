@@ -1,0 +1,17 @@
+{
+  "name": "nettoolkitcli",
+  "version": "1.0.0",
+  "description": "NetToolkitCLI is a command-line tool designed to automate the configuration and diagnostics of routers and other network devices. It includes features for managing ONT passwords, navigating the Polar platform, and conducting various network tests.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "gxldxm",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "inquirer": "^9.2.11",
+    "puppeteer-core": "^21.3.1"
+  }
+}
